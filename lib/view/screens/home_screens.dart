@@ -41,9 +41,9 @@ class _HomeScreensState extends State<HomeScreens> {
           child: Text(
             homeViewModel.errorMessage!,
             style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-              fontWeight: FontWeight.bold,
-              color: LightShadesAppColors.errorMessageTextColor,
-            ),
+                  fontWeight: FontWeight.bold,
+                  color: LightShadesAppColors.errorMessageTextColor,
+                ),
           ),
         ),
       );
@@ -94,8 +94,8 @@ class _HomeScreensState extends State<HomeScreens> {
       title: Text(
         AppConstants.appName,
         style: Theme.of(context).textTheme.titleLarge?.copyWith(
-          color: LightShadesAppColors.appBarTitleTextColor,
-        ),
+              color: LightShadesAppColors.appBarTitleTextColor,
+            ),
       ),
     );
   }
